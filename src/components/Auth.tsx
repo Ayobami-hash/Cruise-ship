@@ -104,7 +104,7 @@ export function Auth({ onLogin }: AuthProps) {
               {/* Right empty pane - place Cyma logo centered here on large screens */}
               <div className="hidden lg:block col-span-2 relative bg-gradient-to-br from-green-400 to-yellow-300">
                 <div className="h-full w-full flex items-center justify-center">
-                  <img src="/cyma.png" alt="Cyma Homes" className="w-48 h-auto rounded-full bg-white/20 p-4 shadow-lg" />
+                  <img src="/cyma.svg" alt="Cyma Homes" className="w-48 h-auto object-contain" />
                 </div>
               </div>
             </div>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cyma Homes logo">
+  <defs>
+    <style>
+      .bg { fill: #222; }
+      .gold { fill: #c8a554; }
+      .text { fill: #c8a554; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; }
+      .tag { fill: #222; font-family: 'Georgia', serif; font-style: italic; font-weight: 400; }
+    </style>
+  </defs>
+  <!-- dark circular background -->
+  <circle cx="512" cy="300" r="260" class="bg" />
+
+  <!-- simple house/roof emblem (stylized) -->
+  <g transform="translate(512,300) scale(1)">
+    <path class="gold" d="M-140,50 L0,-90 L140,50 L110,50 L110,90 L-110,90 L-110,50 Z" />
+    <rect class="gold" x="-80" y="70" width="160" height="12" rx="6" />
+    <rect class="gold" x="-80" y="92" width="160" height="12" rx="6" />
+  </g>
+
+  <!-- CYMA text centered below emblem -->
+  <text x="512" y="520" text-anchor="middle" font-size="96" class="text">CYMA</text>
+
+  <!-- tagline below -->
+  <text x="512" y="580" text-anchor="middle" font-size="32" class="tag">...building your dreams</text>
+</svg>
