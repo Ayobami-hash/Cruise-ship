@@ -38,6 +38,12 @@ export function Auth({ onLogin }: AuthProps) {
                     alt="Boat Logo" 
                     className="w-full max-w-[250px] mx-auto"
                   />
+                  {/* Cyma Homes logo (placed below main logo) - add public/cyma.png to project */}
+                  <img
+                    src="/cyma.png"
+                    alt="Cyma Homes"
+                    className="mx-auto mt-4 w-24 h-auto rounded-full bg-white/30 p-2"
+                  />
                 </div>
 
                 {/* Images Grid - Top */}
