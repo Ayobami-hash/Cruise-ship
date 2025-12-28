@@ -38,12 +38,7 @@ export function Auth({ onLogin }: AuthProps) {
                     alt="Boat Logo" 
                     className="w-full max-w-[250px] mx-auto"
                   />
-                  {/* Cyma Homes logo (placed below main logo) - add public/cyma.png to project */}
-                  <img
-                    src="/cyma.png"
-                    alt="Cyma Homes"
-                    className="mx-auto mt-4 w-24 h-auto rounded-full bg-white/30 p-2"
-                  />
+                  {/* Cyma Homes logo removed from here and placed in the right pane */}
                 </div>
 
                 {/* Images Grid - Top */}
@@ -104,6 +99,12 @@ export function Auth({ onLogin }: AuthProps) {
                   >
                     Login
                   </button>
+                </div>
+              </div>
+              {/* Right empty pane - place Cyma logo centered here on large screens */}
+              <div className="hidden lg:block col-span-2 relative bg-gradient-to-br from-green-400 to-yellow-300">
+                <div className="h-full w-full flex items-center justify-center">
+                  <img src="/cyma.png" alt="Cyma Homes" className="w-48 h-auto rounded-full bg-white/20 p-4 shadow-lg" />
                 </div>
               </div>
             </div>
