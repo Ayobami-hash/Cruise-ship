@@ -1,9 +1,12 @@
-import imgImage9 from "figma:asset/47a15083541b2766a5d625280b85672cbdf6d53c.png";
-import imgImage3 from "figma:asset/b4b4156cb9695b8710de0de219e88188dae94ca9.png";
-import imgAbstractBoatLogoDesignVectorGraphics310384103312X208RemovebgPreview1 from "figma:asset/58ead609153fbb17fa334e169665a8d548c2ecd7.png";
+import imgImage9 from '../assets/47a15083541b2766a5d625280b85672cbdf6d53c.png';
+import imgImage3 from "../assets/b4b4156cb9695b8710de0de219e88188dae94ca9.png";
+// import imgAbstractBoatLogoDesignVectorGraphics310384103312X208Preview1 from "../assets/58ead609153fbb17fa334e169665a8d548c2ecd7.png";
 import { useState } from 'react';
 import { Login } from './Login';
 import { SignUp } from './SignUp';
+
+// src\assets\b4b4156cb9695b8710de0de219e88188dae94ca9.png
+
 
 interface AuthProps {
   onLogin: () => void;
@@ -31,14 +34,7 @@ export function Auth({ onLogin }: AuthProps) {
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-green-500/80 to-green-500/90" />
                 <div className="absolute inset-0 bg-gradient-to-b from-yellow-400/80 via-transparent to-transparent" />
                 
-                {/* Logo */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-8">
-                  <img 
-                    src={imgAbstractBoatLogoDesignVectorGraphics310384103312X208RemovebgPreview1} 
-                    alt="Boat Logo" 
-                    className="w-full max-w-[250px] mx-auto"
-                  />
-                </div>
+                {/* Logo removed */}
 
                 {/* Images Grid - Top */}
                 <div className="absolute top-2 left-1/2 -translate-x-1/2 flex gap-2 w-full px-4">
@@ -74,11 +70,6 @@ export function Auth({ onLogin }: AuthProps) {
 
               {/* Mobile Fallback */}
               <div className="lg:hidden col-span-1 relative bg-gradient-to-br from-green-400 to-yellow-300 flex flex-col justify-center items-center p-8">
-                <img 
-                  src={imgAbstractBoatLogoDesignVectorGraphics310384103312X208RemovebgPreview1} 
-                  alt="Boat Logo" 
-                  className="w-32 mb-6"
-                />
                 <h2 className="text-black text-2xl mb-2 text-center">
                   Discover all the<br />Best Fun on Water
                 </h2>
@@ -103,15 +94,8 @@ export function Auth({ onLogin }: AuthProps) {
 
               {/* Right pane - Cyma logo centered */}
               <div className="hidden lg:block col-span-2 relative bg-gradient-to-br from-green-400 to-yellow-300">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="mx-auto mb-6 flex items-center justify-center">
-                      <div className="w-0 h-0 border-l-[60px] border-l-transparent border-r-[60px] border-r-transparent border-b-[80px] border-b-amber-500" style={{filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.1))'}}></div>
-                    </div>
-                    <h1 className="text-6xl font-bold text-gray-800 tracking-wider">CYMA</h1>
-                    <p className="text-gray-700 italic text-base mt-2">...building your dreams</p>
-                  </div>
-                </div>
+                {/* Right pane intentionally left blank (logo removed) */}
+                <div className="absolute inset-0" />
               </div>
             </div>
           </div>

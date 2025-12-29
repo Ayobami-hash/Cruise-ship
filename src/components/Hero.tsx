@@ -1,4 +1,4 @@
-import imgRectangle7 from "figma:asset/c393d8f84a2e42ea14763b3e75da283194a6f0e9.png";
+import imgRectangle7 from "../assets/c393d8f84a2e42ea14763b3e75da283194a6f0e9.png";
 import { Calendar, MapPin, Search } from 'lucide-react';
 import { useState } from 'react';
 
@@ -64,6 +64,7 @@ export function Hero() {
                 <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-[#93288e]" size={20} />
                 <input
                   type="date"
+                  title="date"
                   value={formData.date}
                   onChange={(e) => setFormData({...formData, date: e.target.value})}
                   className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#93288e] focus:border-transparent"
@@ -78,6 +79,7 @@ export function Hero() {
               </label>
               <select
                 value={formData.guests}
+                title="guests"
                 onChange={(e) => setFormData({...formData, guests: e.target.value})}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#93288e] focus:border-transparent"
               >
