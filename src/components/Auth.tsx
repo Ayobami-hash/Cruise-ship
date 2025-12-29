@@ -106,7 +106,7 @@ export function Auth({ onLogin }: AuthProps) {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <div className="mx-auto mb-6 flex items-center justify-center">
-                      <div className="w-0 h-0 border-l-[50px] border-l-transparent border-r-[50px] border-r-transparent border-b-[70px] border-b-yellow-700 opacity-90"></div>
+                      <div className="w-0 h-0 border-l-[60px] border-l-transparent border-r-[60px] border-r-transparent border-b-[80px] border-b-amber-500" style={{filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.1))'}}></div>
                     </div>
                     <h1 className="text-6xl font-bold text-gray-800 tracking-wider">CYMA</h1>
                     <p className="text-gray-700 italic text-base mt-2">...building your dreams</p>
