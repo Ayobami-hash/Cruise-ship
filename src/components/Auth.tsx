@@ -105,11 +105,11 @@ export function Auth({ onLogin }: AuthProps) {
               <div className="hidden lg:block col-span-2 relative bg-gradient-to-br from-green-400 to-yellow-300">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-32 h-32 mx-auto mb-4 flex items-center justify-center">
-                      <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-b-[60px] border-b-yellow-600"></div>
+                    <div className="mx-auto mb-6 flex items-center justify-center">
+                      <div className="w-0 h-0 border-l-[50px] border-l-transparent border-r-[50px] border-r-transparent border-b-[70px] border-b-yellow-700 opacity-90"></div>
                     </div>
-                    <h1 className="text-6xl font-bold text-yellow-600 tracking-wider">CYMA</h1>
-                    <p className="text-yellow-700 italic text-sm mt-2">...building your dreams</p>
+                    <h1 className="text-6xl font-bold text-gray-800 tracking-wider">CYMA</h1>
+                    <p className="text-gray-700 italic text-base mt-2">...building your dreams</p>
                   </div>
                 </div>
               </div>
